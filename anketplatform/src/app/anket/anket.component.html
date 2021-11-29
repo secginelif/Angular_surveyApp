@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h5>Kayıtlar</h5>
+        <table class="table table-hover table-sm">
+          <thead>
+            <th>Id</th>
+            <th>Seçenek Sayısı</th>
+            <th>Anket Adı</th>
+            <th>Soru Sayısı</th>
+            <th>Kayıt Tarihi</th>
+            <th>Düzenleme Tarihi</th>
+            <th>Önİzleme</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let kayit of kayitlar">
+              <td>{{kayit.id}}</td>
+              <td>{{kayit.secenekno}}</td>
+              <td>{{kayit.anketadi}}</td>
+              <td>{{kayit.sorusayi}}</td>
+              <td>{{kayit.kayTarih | date:'dd.MM.yyyy HH:mm:ss'}}</td>
+              <td>{{kayit.duzTarih | date:'dd.MM.yyyy HH:mm:ss'}}</td>
+              <td><button class="btn btn-outline-success btn-sm" routerLink="/anketgoster">Göz At</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+

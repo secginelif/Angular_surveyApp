@@ -1,0 +1,28 @@
+ <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 ">
+  
+        <div class="card ">
+          <div class="card-header">
+            <h3>Kullanıcı Girişi</h3>
+          </div>
+          <div class="card-body text-left w-50 ">
+            <div class="form-group">
+              <label>Kullanıcı Adı</label>
+              <input type="text" name="kadi" #kadi class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Parola</label>
+              <input type="password" name="parola" #parola class="form-control">
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-outline-primary btn-block w-50 btn-sm" (click)="GirisYap(kadi.value,parola.value)">Giriş
+              Yap</button>
+          </div>
+        </div>
+  
+
+
+
+     

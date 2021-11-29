@@ -1,0 +1,47 @@
+{
+  "kayitlar": [
+    {
+      "id": 913,
+      "secenekno": 4,
+      "anketadi": "Covid-19 Anketi",
+      "sorusayi": 6,
+      "kayTarih": "1605632871861",
+      "duzTarih": "1605633331499"
+    }
+  ],
+  "kullanicilar": [
+    {
+      "id": 32,
+      "kullaniciad": "elif",
+      "mail": "econ248@mail.com"
+    },
+    {
+      "id": 55,
+      "kullaniciad": "mehmet323",
+      "mail": "mehmet@mail.com"
+    },
+    {
+      "id": 171,
+      "kullaniciad": "ben23",
+      "mail": "eliben@gmail.com"
+    }
+  ],
+  "uye": [
+    {
+      "id": 1,
+      "adsoyad": "Elif",
+      "kadi": "elif",
+      "mail": "econ248@mail.com",
+      "admin": 1,
+      "parola": "123"
+    },
+    {
+      "id": 2,
+      "adsoyad": "Mehmet",
+      "kadi": "mehmet",
+      "mail": "mehmet@mail.com",
+      "admin": 0,
+      "parola": "123"
+    }
+  ]
+}
